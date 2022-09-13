@@ -15,7 +15,7 @@ def list_to_int(data):                       # Функция, передающ�
             fff.append(string[i-3])
     fff.append(string[len(string)-2])
     fff.append(string[len(string)-1])
-
+# Тут для названия списков внутри функции использовал утроенные буквы для простоты
     ttt = []
     for i in range(0, len(fff), 2):
         n = fff[i] + fff[i+1]
